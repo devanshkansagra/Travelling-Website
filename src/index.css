@@ -2,7 +2,49 @@ body {
   font-family: 'SF Pro Display', sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .nav-link {
   font-weight: 700;
 }
 
+.dev-flight-form-container, .dev-train-form-container,
+.dev-hotel-container, .dev-bus-container {
+  height: 100%;
+  background:none;
+  width: 100%;
+  /* opacity: ; */
+}
+
+.abc {
+  height: 300vh;
+  /* overflow-y: scroll; */
+}
+@media (min-width: 768px) {
+  .dev-flight-form-container {
+    background: url('images/island.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+  }
+  .dev-train-form-container {
+    background: url('images/train.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+  }
+  .dev-hotel-form-container {
+    background: url('images/hotel.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+  }
+  .dev-bus-form-container {
+    background: url('images/bus.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+  }
+}
